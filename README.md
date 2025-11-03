@@ -225,50 +225,10 @@ FileGenie provides comprehensive workspace analytics:
 - File type analysis
 - Manual duplicate detection
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes (keeping within 500 line limit)
-4. Test both online and offline modes  
-5. Submit a pull request
-
 ### Development Guidelines
 - Maintain the 8-variable constraint
 - Keep total code under 500 lines
-- Ensure offline mode functionality
-- Add comprehensive error handling
-- Follow existing code style
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**"AI mode not working"**
-- Check OPENAI_API_KEY in .env file
-- Verify API key has sufficient credits
-- Check internet connection
-
-**"Files not being found"**  
-- Ensure correct workspace directory
-- Check file permissions
-- Verify supported file extensions
-
-**"Operations failing"**
-- Check file permissions
-- Ensure sufficient disk space  
-- Verify safe mode settings
-
-### Performance Tips
-- Use offline mode for large workspaces (>1000 files)
-- Enable AI mode selectively for complex analysis
-- Regular cleanup improves scan performance
 
 ## 🎉 Examples & Demo
 
@@ -280,17 +240,5 @@ The `demo/` folder contains sample files to test FileGenie:
 
 Try running FileGenie on the demo folder to see it in action!
 
-## 🔮 Roadmap
-
-- [ ] Plugin system for custom operations
-- [ ] Integration with cloud storage
-- [ ] Advanced ML-based file categorization  
-- [ ] Batch processing for large workspaces
-- [ ] Web interface option
-- [ ] File preview capabilities
-
----
-
-**Made with ✨ by the FileGenie team**
 
 *"In the realm of digital chaos, FileGenie brings order, one file at a time!"* 🧞‍♂️
